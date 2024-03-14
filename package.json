@@ -19,7 +19,7 @@
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": false,
-    "stepDefinitions": "./cypress/e2e/pageObjects/"
+    "stepDefinitions": "./cypress/support/stepDefinition/"
   },
   "dependencies": {
     "acorn": "^7.4.1",

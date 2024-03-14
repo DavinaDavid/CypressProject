@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2024-03-13T22:07:08.747Z",
-    "end": "2024-03-13T22:07:39.162Z",
-    "duration": 30415,
+    "start": "2024-03-14T16:42:35.677Z",
+    "end": "2024-03-14T16:44:25.732Z",
+    "duration": 110055,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "10c43c2e-5774-455c-917c-54d5e877a2e5",
+      "uuid": "1d56ddff-3a9a-444d-8293-3ae244ef3be9",
       "title": "",
       "fullFile": "cypress\\e2e\\Features\\02Management.feature",
       "file": "cypress\\e2e\\Features\\02Management.feature",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "204f4300-f7db-4639-8514-cbdf2de5f1a0",
+          "uuid": "36355bf9-a74c-45cf-8bab-0bcd627b2245",
           "title": "Employee Management",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Employees are Added",
               "fullTitle": "Employee Management Employees are Added",
               "timedOut": null,
-              "duration": 14692,
+              "duration": 84913,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "b3a9ae0d-e529-4796-b637-3b772efe2972",
-              "parentUUID": "204f4300-f7db-4639-8514-cbdf2de5f1a0",
+              "uuid": "b34f996b-8a14-4126-9334-96bbfcdc1aa7",
+              "parentUUID": "36355bf9-a74c-45cf-8bab-0bcd627b2245",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Employee is Searched and Edited",
               "fullTitle": "Employee Management Employee is Searched and Edited",
               "timedOut": null,
-              "duration": 12680,
+              "duration": 24835,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,21 +65,21 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "d827cfb6-53e8-4b9f-b677-054933b3c64b",
-              "parentUUID": "204f4300-f7db-4639-8514-cbdf2de5f1a0",
+              "uuid": "8eb5824d-d983-456a-a560-38180987aa94",
+              "parentUUID": "36355bf9-a74c-45cf-8bab-0bcd627b2245",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "b3a9ae0d-e529-4796-b637-3b772efe2972",
-            "d827cfb6-53e8-4b9f-b677-054933b3c64b"
+            "b34f996b-8a14-4126-9334-96bbfcdc1aa7",
+            "8eb5824d-d983-456a-a560-38180987aa94"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 27372,
+          "duration": 109748,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
